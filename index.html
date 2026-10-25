@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="An academic data analytics portfolio in progress for the IT - Data Analyst program at CVTC.">
+  <title>Academic Portfolio | Kyle Meyer</title>
+  <style>
+    /* A simple starting point. Colors and layout can change as the portfolio grows. */
+    :root { --navy: #223b57; --blue: #175d94; --border: #d8e0e7; --muted: #5c6873; }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; font-family: Arial, Helvetica, sans-serif; color: #242d35; background: #f7f9fb; line-height: 1.6; }
+    header { background: var(--navy); color: white; padding: 34px 20px 28px; }
+    .wrap { max-width: 900px; margin: 0 auto; }
+    header h1 { font-size: 2rem; margin: 0 0 4px; }
+    header p { margin: 0; color: #e0e9f1; }
+    nav { background: #e9eff4; border-bottom: 1px solid var(--border); }
+    nav .wrap { display: flex; flex-wrap: wrap; gap: 8px 24px; padding: 12px 20px; }
+    nav a { color: var(--navy); text-decoration: none; font-weight: bold; font-size: .92rem; }
+    nav a:hover, nav a:focus-visible { text-decoration: underline; }
+    main { padding: 28px 20px 56px; }
+    section { margin-bottom: 30px; background: white; border: 1px solid var(--border); border-radius: 5px; padding: 22px 24px; }
+    h2 { margin: 0 0 10px; color: var(--navy); font-size: 1.35rem; }
+    h3 { font-size: 1.05rem; margin: 0 0 4px; }
+    p { margin: 8px 0 0; }
+    .draft-note { padding: 12px 16px; background: #f0f5f9; border-left: 4px solid var(--blue); margin-bottom: 24px; }
+    .draft-note strong { color: var(--navy); }
+    .projects { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin-top: 14px; }
+    .project { border: 1px solid var(--border); border-radius: 4px; padding: 14px; background: #fcfdfe; }
+    .project p { color: var(--muted); font-size: .94rem; }
+    ul { margin: 8px 0 0; padding-left: 22px; }
+    .todo { color: #606c77; font-style: italic; }
+    footer { text-align: center; color: var(--muted); font-size: .85rem; padding: 18px 20px 34px; }
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.65rem; }
+      section { padding: 18px; }
+      .projects { grid-template-columns: 1fr; }
+      nav .wrap { gap: 8px 16px; }
+    }
+  </style>
+</head>
+<body>
+  <header id="home">
+    <div class="wrap">
+      <h1>Kyle Meyer</h1>
+      <p>Academic Portfolio | IT – Data Analyst | Chippewa Valley Technical College</p>
+    </div>
+  </header>
+
+  <nav aria-label="Main navigation">
+    <div class="wrap">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <main class="wrap">
+    <div class="draft-note">
+      <strong>Portfolio in progress — Week 2 of 8.</strong>
+      This is the starting framework. I'll add actual coursework, visuals, and project write-ups as the semester continues.
+    </div>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I'm currently studying data analytics at Chippewa Valley Technical College. This site will collect examples of my work and show the skills I've developed throughout the program.</p>
+      <p class="todo">To add later: a longer introduction and career goals.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Academic Projects</h2>
+      <p>As I organize my previous coursework, I'll add a short description, screenshots or reports, tools used, and what I learned from each project.</p>
+      <div class="projects">
+        <article class="project">
+          <h3>Power BI Project</h3>
+          <p>Placeholder for a dashboard, explanation, and key findings.</p>
+        </article>
+        <article class="project">
+          <h3>SQL / Database Project</h3>
+          <p>Placeholder for database coursework and example queries.</p>
+        </article>
+        <article class="project">
+          <h3>Python Project</h3>
+          <p>Placeholder for scripts, notebooks, or data analysis work.</p>
+        </article>
+        <article class="project">
+          <h3>Additional Coursework</h3>
+          <p>More projects and course artifacts will be added here.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills &amp; Tools</h2>
+      <p>Topics I plan to highlight through examples of coursework:</p>
+      <ul>
+        <li>Power BI and data visualization</li>
+        <li>SQL and databases</li>
+        <li>Python for data analysis</li>
+        <li>Data cleaning and problem-solving</li>
+      </ul>
+      <p class="todo">To add later: specific examples and skill details.</p>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <p><strong>Chippewa Valley Technical College</strong></p>
+      <p>IT – Data Analyst program | In progress</p>
+      <p class="todo">To add later: relevant courses, completed work, and graduation details.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p class="todo">To add later: professional email, GitHub profile, LinkedIn, and resume.</p>
+    </section>
+  </main>
+
+  <footer>Academic portfolio framework • October 2026</footer>
+</body>
+</html>
