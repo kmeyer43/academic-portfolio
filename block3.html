@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Block 3 course summaries for Kyle Meyer's CVTC academic data analytics portfolio.">
+<title>Block 3 Courses | Kyle Meyer</title>
+<style>
+    /* Deliberately matches the simple Week 2 portfolio design. */
+    :root { --navy: #223b57; --blue: #175d94; --border: #d8e0e7; --muted: #5c6873; }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; font-family: Arial, Helvetica, sans-serif; color: #242d35; background: #f7f9fb; line-height: 1.6; }
+    header { background: var(--navy); color: white; padding: 34px 20px 28px; }
+    .wrap { max-width: 900px; margin: 0 auto; }
+    header h1 { font-size: 2rem; margin: 0 0 4px; }
+    header p { margin: 0; color: #e0e9f1; }
+    nav { background: #e9eff4; border-bottom: 1px solid var(--border); }
+    nav .wrap { display: flex; flex-wrap: wrap; gap: 8px 24px; padding: 12px 20px; }
+    nav a { color: var(--navy); text-decoration: none; font-weight: bold; font-size: .92rem; }
+    nav a:hover, nav a:focus-visible { text-decoration: underline; }
+    main { padding: 28px 20px 56px; }
+    section { margin-bottom: 24px; background: white; border: 1px solid var(--border); border-radius: 5px; padding: 22px 24px; }
+    h2 { margin: 0 0 10px; color: var(--navy); font-size: 1.35rem; }
+    h3 { font-size: 1.02rem; margin: 15px 0 5px; color: var(--navy); }
+    p { margin: 8px 0 0; }
+    ul { margin: 8px 0 0; padding-left: 22px; }
+    li { margin: 4px 0; }
+    .draft-note { padding: 12px 16px; background: #f0f5f9; border-left: 4px solid var(--blue); margin-bottom: 24px; }
+    .evidence { border: 1px dashed #b1bfca; border-radius: 3px; background: #fbfcfd; padding: 12px 14px; margin-top: 15px; color: #586571; }
+    .evidence strong { color: #35495a; }
+    .small { color: var(--muted); font-size: .9rem; }
+    a { color: var(--blue); }
+    footer { text-align: center; color: var(--muted); font-size: .85rem; padding: 18px 20px 34px; }
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.65rem; }
+      section { padding: 18px; }
+      nav .wrap { gap: 8px 16px; }
+    }
+  
+    /* Course screenshots are displayed without changing the simple layout. */
+    .course-example { margin: 18px 0 0; }
+    .course-example img { display: block; width: 100%; height: auto; border: 1px solid var(--border); border-radius: 3px; background: #fff; }
+    .course-example figcaption { margin-top: 7px; color: var(--muted); font-size: .9rem; }
+    .course-example a { display: block; }
+    .course-example img:hover { border-color: var(--blue); }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>Block 3 Coursework</h1>
+    <p>Academic Portfolio | IT – Data Analyst | Chippewa Valley Technical College</p>
+  </div>
+</header>
+<nav aria-label="Main navigation">
+  <div class="wrap">
+    <a href="index.html">Home</a>
+    <a href="block1.html">Block 1</a>
+    <a href="block2.html">Block 2</a>
+    <a href="block3.html" aria-current="page">Block 3</a>
+  </div>
+</nav>
+<main class="wrap">
+  <div class="draft-note"><strong>Block 3 — Third Semester.</strong> This page summarizes three courses and includes examples of my Python and Power BI coursework.</div>
+  <section id="python">
+    <h2>Python Data Programming</h2>
+    <p>This course focused on writing Python programs that work with data. We started with programming basics and moved into reading files, using databases, and analyzing information with Python libraries.</p>
+    <h3>Topics and skills covered</h3>
+    <ul>
+      <li>Using variables, conditions, loops, functions, and lists.</li>
+      <li>Reading and writing CSV files and organizing code with classes and objects.</li>
+      <li>Connecting to SQLite databases and running queries from Python.</li>
+      <li>Using JupyterLab and Pandas to work with data and create reports.</li>
+    </ul>
+    <figure class="course-example">
+      <a href="images/block3-python-baseball-manager.png" target="_blank" rel="noopener noreferrer" aria-label="Open full-size image: Python Baseball Team Manager source code">
+        <img src="images/block3-python-baseball-manager.png" alt="Python IDE showing a Baseball Team Manager project with multiple Python files and date-handling functions" loading="lazy">
+      </a>
+      <figcaption><strong>Python example:</strong> A screenshot of my Baseball Team Manager project. The code shows how I organized functions and handled user-entered game dates, including checking date formats and calculating the days until a game. Click the image to view it full size.</figcaption>
+    </figure>
+  </section>
+  <section id="etl">
+    <h2>Introductory ETL</h2>
+    <p>In Introductory ETL, I learned about moving and preparing data so it can be used for analysis and reporting. The course covered how to extract data, clean and transform it, check its accuracy, and load it into a destination.</p>
+    <h3>Topics and skills covered</h3>
+    <ul>
+      <li>Understanding ETL (Extract, Transform, Load) and how it supports data integration.</li>
+      <li>Working with structured and unstructured data from different sources.</li>
+      <li>Cleaning and transforming data to meet requirements.</li>
+      <li>Validating results, checking data quality, and testing an ETL process.</li>
+      <li>Loading data into a target system and comparing ETL with ELT.</li>
+    </ul>
+    
+  </section>
+  <section id="powerbi">
+    <h2>BI Data 1 – Interactive</h2>
+    <p>This course focused on using Power BI to build reports that people can explore. We worked with importing data, cleaning it in Power Query, connecting tables, and presenting information through interactive charts and dashboards.</p>
+    <h3>Topics and skills covered</h3>
+    <ul>
+      <li>Connecting Power BI Desktop to data sources such as SQL Server, spreadsheets, and websites.</li>
+      <li>Cleaning data and changing data types using Power Query.</li>
+      <li>Creating table relationships, key performance indicators, and measures.</li>
+      <li>Building visualizations with slicers, filters, and drill-through features.</li>
+      <li>Learning about Power BI Service, report sharing, and row-level security.</li>
+    </ul>
+    <figure class="course-example">
+      <a href="images/block3-interactive-employee-report.png" target="_blank" rel="noopener noreferrer" aria-label="Open full-size image: Power BI Employee Department Report">
+        <img src="images/block3-interactive-employee-report.png" alt="Power BI Employee Department Report showing employee records, department selection and a Q and A visual" loading="lazy">
+      </a>
+      <figcaption><strong>Interactive reporting example:</strong> I built this Power BI Employee Department Report using data from the AdventureWorks2019 SQL Server database. It combines employee information with departmental data and includes a department selection area for exploring records. Click the image to view it full size.</figcaption>
+    </figure>
+  </section>
+</main>
+<footer>Academic portfolio in progress • November 2026</footer>
+</body>
+</html>
